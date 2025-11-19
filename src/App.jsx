@@ -1,5 +1,13 @@
+import Hero from './Hero.jsx';
+import Projects from './Projects.jsx';
+
 const App = () => {
-	return <h1>App</h1>;
+	return (
+		<main>
+			<Hero />
+			<Projects />
+		</main>
+	);
 };
 
 export default App;
