@@ -25,7 +25,7 @@ const Projects = () => {
 					return (
 						<a key={id} href={url} rel="no" target="_blank" className="project">
 							<img src={img} alt={title} className="img" />
-							<h5>{title}</h5>;
+							<h5>{title}</h5>
 						</a>
 					);
 				})}
